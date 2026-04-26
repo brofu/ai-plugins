@@ -1,0 +1,39 @@
+{
+  "name": "investigation-insight",
+  "version": "0.3.0",
+  "description": "A plugin for deep-dive market investigation across stocks and crypto. Maintained by the plugin owner.",
+  "author": "brofu",
+  "rules": "./rules.md",
+  "skills": [
+    {
+      "name": "stock-insight",
+      "path": "./stock-insight/SKILL.md",
+      "status": "stable",
+      "description": "Full 7-section research report for any U.S. stock ticker."
+    },
+    {
+      "name": "crypto-insight",
+      "path": "./crypto-insight/SKILL.md",
+      "status": "planned",
+      "description": "On-chain + market analysis for any crypto token."
+    },
+    {
+      "name": "industry-insight",
+      "path": "./industry-insight/SKILL.md",
+      "status": "planned",
+      "description": "3-month sector/industry performance. Sub-skill of stock-insight Section A."
+    },
+    {
+      "name": "founder-insight",
+      "path": "./founder-insight/SKILL.md",
+      "status": "stable",
+      "description": "7-section founder & leadership deep-dive profile. Sub-skill of stock-insight Section B."
+    },
+    {
+      "name": "financial-report-insight",
+      "path": "./financial-report-insight/SKILL.md",
+      "status": "planned",
+      "description": "Financial report comparison. Sub-skill of stock-insight Section D."
+    }
+  ]
+}
