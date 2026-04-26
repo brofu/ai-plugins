@@ -1,0 +1,22 @@
+# Secrets — never committed
+.secrets
+.env
+.env.*
+.claude/settings.local.json
+
+# Generated report outputs
+reports/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.log
